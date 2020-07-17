@@ -58,7 +58,7 @@
     "start": "PORT=3006 react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "makeDist": "rm -rf dist && NODE_ENV=production babel src --out-dir dist --copy-files --ignore __tests__,spec.js,test.js,__snapshots__",
+    "makeDist": "rm -rf dist && NODE_ENV=production ./node_modules/.bin/babel src --out-dir dist --copy-files --ignore __tests__,spec.js,test.js,__snapshots__",
     "prepare": "npm run makeDist",
     "eject": "react-scripts eject"
   },
