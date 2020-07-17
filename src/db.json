@@ -1,0 +1,44 @@
+{
+  "posts": [
+{
+"orderRefType":"barcode",
+"orderRef":"00751523005350",
+"orderdetail":[
+{
+"cartonId":9219935,
+"dcNo":"0444",
+"barcodeType":"K",
+"salesCheck":"099001002297",
+"sku":"00947004000",
+"origAsnQty":0,
+"asnQty":1,
+"custName":"Lynn Roeder",
+"itemDesc":"CM 11PC SAE COMB WRENCH S",
+"containerType":"C",
+"packSize":6,
+"remainingQty":0,
+"carrierName":"UPS",
+"dosTrkQty":0,
+"items":[
+{
+"externLineNo":4,
+"sku":"00947004000",
+"itemDesc":"CM 11PC SAE COMB WRE",
+"origOrderQty":0,
+"orderQty":1,
+"stageQty":1,
+"shipQty":0,
+"exceptQty":0,
+"statusCd":"S",
+"putupQty":0,
+"putupShipQty":0,
+"putupFl":null,
+"expectQty":0,
+"binNo":999999997
+}
+]
+}
+]
+}
+]
+}

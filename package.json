@@ -1,0 +1,103 @@
+{
+  "name": "dccd-web-staging-UI",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": ".",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "peerDependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.nonprod.mt.oh.transformco.com/dccd/dccd-web-staging-UI.git#WTMS-2929"
+  },
+  "dependencies": {
+    "@babel/core": "^7.0.0",
+    "@babel/plugin-proposal-class-properties": "^7.10.4",
+    "@babel/plugin-transform-arrow-functions": "^7.10.4",
+    "@babel/preset-env": "^7.10.4",
+    "@babel/preset-react": "^7.10.4",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.5.0",
+    "@testing-library/user-event": "^7.2.1",
+    "axios": "^0.18.1",
+    "bootstrap": "^4.5.0",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.3.1",
+    "json-server": "^0.12.2",
+    "moment": "^2.22.2",
+    "node-sass": "^4.11.0",
+    "react-app": "^1.1.2",
+    "react-bootstrap-table": "^4.3.1",
+    "react-confirm-alert": "^2.6.1",
+    "react-datepicker": "^1.8.0",
+    "react-google-recaptcha": "^1.0.5",
+    "react-json-to-table": "^0.1.5",
+    "react-redux": "^5.0.7",
+    "react-router-dom": "^5.2.0",
+    "react-social-icons": "^4.1.0",
+    "react-spinner-material": "^1.1.1",
+    "react-spinners": "^0.4.5",
+    "reactstrap": "^6.5.0",
+    "redux": "^3.7.2",
+    "redux-form": "^7.2.3",
+    "redux-form-input-masks": "^1.2.0",
+    "redux-form-validators": "^2.4.3",
+    "redux-promise": "^0.5.3",
+    "sass-loader": "^7.1.0",
+    "url-search-params-polyfill": "^6.0.0",
+    "webpack": "^4.43.0"
+  },
+  "scripts": {
+    "start": "PORT=3006 react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "makeDist": "rm -rf dist && NODE_ENV=production babel src --out-dir dist --copy-files --ignore __tests__,spec.js,test.js,__snapshots__",
+    "prepare": "npm run makeDist",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-env",
+      "@babel/preset-react",
+      "react-app"
+    ],
+    "plugins": [
+      "@babel/plugin-proposal-class-properties",
+      "@babel/plugin-transform-arrow-functions"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.0.0",
+    "@babel/core": "^7.0.0",
+    "@babel/plugin-proposal-object-rest-spread": "^7.0.0",
+    "@babel/plugin-transform-react-jsx": "^7.0.0",
+    "@babel/preset-env": "^7.0.0",
+    "babel-loader": "^8.1.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-scripts": "^2.1.8",
+    "webpack-cli": "^3.3.12"
+  }
+}

@@ -1,0 +1,96 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+/* stagingScanCarton */
+label.error {
+  font-size: 14px;
+  color: red;
+  margin-left: 5px;
+  float: none;
+}
+body.dccdBackground {
+  background-color: #ffffff;
+  font-family: "Times New Roman";
+  font-size: 14px;
+}
+table.dccdTable {
+  font-family: "Times New Roman";
+  font-size: 11px;
+}
+table.dccdTableMed {
+  font-family: "Times New Roman";
+  font-size: 12px;
+}
+
+.goButton {
+  margin-left: 10px;
+}
+
+.errors {
+  color: red;
+  font-weight: bold;
+  font-size: 125%;
+}
+
+.buttonsphorz {
+  margin-right: 25px;
+  margin-left: 25px;
+}
+
+.MyClass {
+  font-family: "Times New Roman";
+  font-size: 14px;
+  border-width: 3px;
+  cell-spacing: 2px;
+  border: 2px;
+  color: #0000ff;
+}
+
+.MyChangedClass {
+  font-family: "Times New Roman";
+  font-size: 14px;
+  border-width: 3px;
+  cell-spacing: 2px;
+  border: 2px;
+  color: #000000;
+}
+
+.sortableTable {
+  font-family: "Times New Roman";
+  font-size: 11px;
+  border-width: none;
+}
+
+fieldset {
+  margin: 8px;
+  border: 1px solid silver;
+  padding: 8px;
+  border-radius: 4px;
+}
+
+legend {
+  padding: 2px;
+}
+/* End of stagingScanCarton */
+
+/* stagingPrintItem */
+.button1 {
+  margin-right: 50px;
+  margin-left: 50px;
+  margin-top: 15px;
+}
+table.dccdTable {
+  font-family: "Times New Roman";
+  font-size: 11px;
+}
+table.dccdTableMed {
+  font-family: "Times New Roman";
+  font-size: 12px;
+}
+/*End of stagingPrintItem */
