@@ -5,11 +5,12 @@ import 'core-js';
 import "./index.css";
 import App from "./App.js";
 //import * as serviceWorker from "./serviceWorker";
+import {BrowserRouter,Route,Switch} from 'react-router-dom';
 
 ReactDOM.render(
-  <React.StrictMode>
+  <BrowserRouter>
     <App />
- </React.StrictMode>,
+ <BrowserRouter>,
   document.getElementById("root")
 );
 
